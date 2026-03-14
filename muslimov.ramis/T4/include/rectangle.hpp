@@ -24,7 +24,7 @@ public:
 private:
     Point leftBottom_;
     Point rightTop_;
-    
+
     static void validateCorners(const Point& lb, const Point& rt);
 };
 

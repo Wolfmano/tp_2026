@@ -28,7 +28,7 @@ TEST(EllipseTest, InvalidRadii) {
     EXPECT_THROW(Ellipse({0,0}, 1e-13, 1e-13), std::invalid_argument);
 }
 
-// //Намеренная утечка, для проверки санитайзеров 
+// //Намеренная утечка, для проверки санитайзеров
 // TEST(LeakMemmoryAddress, LeakMemmoryAddress){
 //      int* p = new int(42);
 //      (void)p;

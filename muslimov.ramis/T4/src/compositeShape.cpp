@@ -68,7 +68,7 @@ void CompositeShape::move(double dx, double dy)
     }
 }
 
-void CompositeShape::scale(double factor) 
+void CompositeShape::scale(double factor)
 {
     if(!(factor > 0.0)){
         throw std::invalid_argument("CompositeShape::scale: factor must be > 0");

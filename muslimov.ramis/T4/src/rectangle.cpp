@@ -23,12 +23,12 @@ void Rectangle::validateCorners(const Point & lb, const Point & rt){
     }
 }
 
-double Rectangle::getArea() const 
+double Rectangle::getArea() const
 {
     return getWidth() * getHeight();
 }
 
-Point Rectangle::getCenter() const 
+Point Rectangle::getCenter() const
 {
     return Point {(leftBottom_.x + rightTop_.x) / 2.0, (leftBottom_.y + rightTop_.y) / 2.0};
 }
@@ -73,22 +73,22 @@ std::string Rectangle::getName() const
     return "RECTANGLE";
 }
 
-double Rectangle::getWidth() const 
+double Rectangle::getWidth() const
 {
     return rightTop_.x - leftBottom_.x;
 }
 
-double Rectangle::getHeight() const 
+double Rectangle::getHeight() const
 {
     return rightTop_.y - leftBottom_.y;
 }
 
-Point Rectangle::getLeftBottom() const 
+Point Rectangle::getLeftBottom() const
 {
     return leftBottom_;
 }
 
-Point Rectangle::getRightTop() const 
+Point Rectangle::getRightTop() const
 {
     return rightTop_;
 }

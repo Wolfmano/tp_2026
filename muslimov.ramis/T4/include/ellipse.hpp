@@ -8,7 +8,7 @@ class Ellipse : public Shape
 {
 public:
     Ellipse (const Point& center, double verticalRadius, double horizontalRadius);
-    
+
     double getArea() const override;
     Point getCenter() const override;
     void move(double dx, double dy) override;

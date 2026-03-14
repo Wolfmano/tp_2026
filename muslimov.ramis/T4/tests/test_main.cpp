@@ -3,10 +3,10 @@
 #include <iomanip>
 #include <memory>
 
-#include "demo_shapes.hpp"       
-#include "shapeContainer.hpp"    
-#include "shapePrinter.hpp"     
-#include "compositeShape.hpp"    
+#include "demo_shapes.hpp"
+#include "shapeContainer.hpp"
+#include "shapePrinter.hpp"
+#include "compositeShape.hpp"
 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);

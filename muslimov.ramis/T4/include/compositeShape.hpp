@@ -27,7 +27,7 @@ public:
     //Добавить фигуру (передаем владение)
     void add(std::unique_ptr<Shape> shape);
 
-    //Количество фигур 
+    //Количество фигур
     std::size_t size() const noexcept;
 
     //Shape interface
