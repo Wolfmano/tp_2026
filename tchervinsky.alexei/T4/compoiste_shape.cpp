@@ -1,4 +1,5 @@
 #include "CompositeShape.hpp"
+#include <limits>
 
 double max(double a, double b) {
   if (a < b) {
